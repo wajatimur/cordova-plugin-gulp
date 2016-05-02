@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android" id="cordova-plugin-gulp" version="0.9.0">
+	<name>Gulp</name>
+	<description>Cordova Gulp Build</description>
+	<keywords>cordova,gulp,task,build</keywords>
+	<author>Azri Jamil</author>
+	<license>MIT</license>
+	<repo>https://github.com/meteor/cordova-plugin-gulp.git</repo>
+
+	<engines>
+		<engine name="cordova" version=">=5.4.1" />
+		<engine name="cordova-android" version=">=1.8.0" />
+	</engines>
+	
+	<hook type="after_prepare" src="scripts/afterPrepare.js" />
+
+</plugin>
